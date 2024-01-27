@@ -1,0 +1,85 @@
+.AllArcticles {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .list{
+    position: absolute;
+    left: 0;
+    top: 150px;
+    z-index: -1;
+  }
+
+  .list2{
+    position: absolute;
+    right: 0;
+    top: -230px;
+    z-index: -1;
+  }
+
+  &__title {
+    margin-top: 116px;
+    margin-left: 120px;
+    color: $green;
+    text-align: center;
+    font-family: "Angst";
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+    margin-right: auto;
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 91px;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .AllArcticles {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  
+    .list{
+      position: absolute;
+      left: 0;
+      top: 150px;
+      z-index: -1;
+      width: 217.905px;
+      height: 597.647px;
+    }
+  
+    .list2{
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -1;
+      width: 205.625px;
+height: 503.292px;
+    }
+  
+    &__title {
+      margin-top: 104px;
+      margin-left: 78px;
+      color: $green;
+      text-align: center;
+      font-family: "Angst";
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-right: auto;
+    }
+  
+    &__col {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      margin-top: 80px;
+    }
+  }
+}

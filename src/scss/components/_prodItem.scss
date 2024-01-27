@@ -1,0 +1,25 @@
+.prodItem{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+
+    .prodArtCol{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .prodItem{
+        display: flex;
+        flex-direction: column;
+        row-gap: 110px;
+    
+        .prodArtCol{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@import './variables.scss';
+@import './libs/fonts.scss';
+@import './libs/normalize.scss';
+@import './components/all.scss';
+
+
+.contein {
+    display: flex;
+    flex-direction: column;
+
+    .main{
+        flex-grow: 1;
+    }
+}

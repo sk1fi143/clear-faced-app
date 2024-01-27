@@ -1,0 +1,233 @@
+@import "../variables";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    margin-top: 123px;
+    color: $dark-green;
+    font-family: "Angst";
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+    margin-right: auto;
+    margin-left: 120px;
+  }
+
+  &__secondTitle {
+    color: $dark-green;
+    font-family: "AvenirNextCyr-Medium";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+    margin-right: auto;
+    margin-left: 120px;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 60px;
+    width: 1122px;
+    position: relative;
+
+    label {
+      display: flex;
+      flex-direction: column-reverse;
+      row-gap: 5px;
+
+      input:not(:placeholder-shown):invalid{
+        border: 2px solid $invalid;
+        color: $invalid;
+      }
+      input:not(:placeholder-shown):invalid::placeholder {
+        color: $invalid;
+      }
+      input:not(:placeholder-shown):invalid ~ span {
+        color: $invalid !important;
+      }
+
+      span {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Medium";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 50;
+        line-height: normal;
+      }
+
+      .form__wrap__fio {
+        width: 353.825px;
+        height: 95.982px;
+        border: 2px solid $dark-green;
+        color: $light-green;
+        text-align: left;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 750;
+        line-height: normal;
+        padding-left: 30px;
+      }
+
+      .form__wrap__fio::placeholder {
+        color: $light-grey;
+        text-align: left;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 750;
+        line-height: normal;
+      }
+    }
+
+    .adressLabel {
+      width: 100%;
+
+      .form__wrap__adress {
+        width: 100%;
+      }
+    }
+  }
+
+  &__button {
+    margin-top: 76px;
+    cursor: pointer;
+    width: 629.884px;
+    height: 95.982px;
+    border: 1px solid $dark-green;
+    background: $dark-green;
+    color: $white;
+    text-align: center;
+    font-family: "AvenirNextCyr-Medium";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    &__title {
+      margin-top: 104px;
+      color: $dark-green;
+      font-family: "Angst";
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-right: auto;
+      margin-left: 79px;
+    }
+  
+    &__secondTitle {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Medium";
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-right: auto;
+      margin-left: 79px;
+    }
+  
+    &__wrap {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+      column-gap: 20px;
+      row-gap: 20px;
+      margin-top: 40px;
+      width: 892px;
+      position: relative;
+  
+      label {
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 5px;
+  
+        input:not(:placeholder-shown):invalid{
+          border: 2px solid $invalid;
+          color: $invalid;
+        }
+        input:not(:placeholder-shown):invalid::placeholder {
+          color: $invalid;
+        }
+        input:not(:placeholder-shown):invalid ~ span {
+          color: $invalid !important;
+        }
+  
+        span {
+          color: $dark-green;
+          font-family: "AvenirNextCyr-Medium";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 50;
+          line-height: normal;
+        }
+  
+        .form__wrap__fio {
+          width: 283.825px;
+          height: 73px;
+          border: 2px solid $dark-green;
+          color: $light-green;
+          text-align: left;
+          font-family: "AvenirNextCyr-Regular";
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 750;
+          line-height: normal;
+          padding-left: 20px;
+        }
+  
+        .form__wrap__fio::placeholder {
+          color: $light-grey;
+          text-align: left;
+          font-family: "AvenirNextCyr-Regular";
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 750;
+          line-height: normal;
+        }
+      }
+  
+      .adressLabel {
+        width: 100%;
+  
+        .form__wrap__adress {
+          width: 100%;
+        }
+      }
+    }
+  
+    &__button {
+      margin-top: 58px;
+      cursor: pointer;
+      width: 480.762px;
+      height: 73.259px;
+      border: 1px solid $dark-green;
+      background: $dark-green;
+      color: $white;
+      text-align: center;
+      font-family: "AvenirNextCyr-Medium";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+    }
+  }
+}

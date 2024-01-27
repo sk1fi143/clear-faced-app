@@ -1,0 +1,250 @@
+.ProductCard {
+  display: flex;
+  flex-direction: row;
+  padding-left: 120px;
+  padding-right: 120px;
+  column-gap: 141px;
+  margin-top: 123px;
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__mainImage {
+      width: 685px;
+      height: 843px;
+      position: relative;
+      
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &__rowImage {
+      display: flex;
+      flex-direction: row;
+      margin-top: 48px;
+      column-gap: 22px;
+
+      &__grey {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 122px;
+        height: 122px;
+        background: #d9d9d9;
+
+        img{
+          object-fit: cover;
+          
+        }
+      }
+    }
+
+    &__rowTitle {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+      width: 100%;
+
+      h1 {
+        color: $green;
+        font-family: "Angst";
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 50;
+        line-height: normal;
+      }
+
+      .size {
+        color: $green;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 10px;
+      }
+    }
+
+    h2 {
+      color: $green;
+      font-family: "AvenirNextCyr-Regular";
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-right: auto;
+    }
+
+    p {
+      margin-top: 169px;
+      color: $grey;
+      font-family: "AvenirNextCyr-Regular";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    &__rowBtn {
+      display: flex;
+      flex-direction: row;
+      margin-left: auto;
+      align-items: center;
+      column-gap: 100px;
+      margin-top: 260px;
+
+      span {
+        color: $grey;
+        font-family: "AvenirNextCyr-Medium";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+      }
+
+      button {
+        cursor: pointer;
+        background: transparent;
+        width: 414.443px;
+        height: 48.656px;
+        border: 3px solid $dark-green;
+        color: $dark-green;
+        text-align: center;
+        font-family: "AvenirNextCyr-Bold";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 750;
+        line-height: normal;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .ProductCard {
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-right: 80px;
+    column-gap: 123px;
+    margin-top: 104px;
+  
+    &__col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      &__mainImage {
+        width: 527px;
+        height: 648px;
+        position: relative;
+        
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+  
+      &__rowImage {
+        display: flex;
+        flex-direction: row;
+        margin-top: 19px;
+        column-gap: 20px;
+  
+        &__grey {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 89px;
+          height: 92px;
+          background: #d9d9d9;
+  
+          img{
+            object-fit: cover;
+            height: 85px;
+            
+          }
+        }
+      }
+  
+      &__rowTitle {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100%;
+  
+        h1 {
+          color: $green;
+          font-family: "Angst";
+          font-size: 50px;
+          font-style: normal;
+          font-weight: 50;
+          line-height: normal;
+        }
+  
+        .size {
+          display: none;
+        }
+      }
+  
+      h2 {
+        color: $green;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-right: auto;
+      }
+  
+      p {
+        margin-top: 72px;
+        color: $grey;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+  
+      &__rowBtn {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        align-items: center;
+        column-gap: 128px;
+        margin-top: 171px;
+  
+        span {
+          color: $grey;
+          font-family: "AvenirNextCyr-Medium";
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 450;
+          line-height: normal;
+        }
+  
+        button {
+          cursor: pointer;
+          background: transparent;
+          width: 353px;
+          height: 48px;
+          border: 3px solid $dark-green;
+          color: $dark-green;
+          text-align: center;
+          font-family: "AvenirNextCyr-Bold";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 750;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}

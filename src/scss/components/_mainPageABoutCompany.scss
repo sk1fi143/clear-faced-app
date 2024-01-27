@@ -1,0 +1,307 @@
+.mainAboutCompany {
+  display: flex;
+  flex-direction: column;
+  margin-top: 116px;
+  width: 100%;
+  position: relative;
+
+  .mainAboutCompany__fourth-info-img {
+    width: 769px;
+    height: 615px;
+    margin-left: auto;
+  }
+
+  &__infoblock-1,
+  &__infoblock-2,
+  &__infoblock-3,
+  &__infoblock-4,
+  &__infoblock-4-1,
+  &__infoblock-5 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__infoblock-2 {
+    margin-top: 63px;
+  }
+
+  &__infoblock-4 {
+    margin-top: 91px;
+    flex-direction: column;
+  }
+
+  &__infoblock-4-1 {
+    margin-top: 106px;
+  }
+
+  &__infoblock-5 {
+    margin-top: 58px;
+  }
+
+  &__title {
+    color: $green;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: "Angst";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+    margin-left: 141px;
+  }
+
+  &__first-text,
+  &__second-text,
+  &__third-text,
+  &__fourth-text,
+  &__fifth-text {
+    color: $dark-green;
+    font-family: "AvenirNextCyr-Regular";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+  }
+
+  &__first-text {
+    margin-left: 120px;
+    margin-top: 56px;
+    margin-right: 289px;
+  }
+
+  &__second-text {
+    margin-left: 271px;
+    margin-right: 120px;
+    margin-top: 10px;
+  }
+
+  &__third-text {
+    margin-left: 132px;
+    margin-top: 63px;
+    margin-right: 330px;
+  }
+
+  &__fourth-text {
+    margin-right: 113px;
+    margin-left: 150px;
+  }
+
+  &__fifth-text {
+    margin-top: 52px;
+    margin-left: 120px;
+    width: 805px;
+  }
+
+  &__third-info-img {
+    margin-right: 195px;
+    width: 450px;
+    height: 674px;
+    z-index: -100;
+  }
+
+  &__second-title {
+    color: $dark-green;
+    text-align: right;
+    font-family: Angst;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: 120px;
+  }
+
+  &__img-with-fonblock {
+    width: 861px;
+    height: 880px;
+    background-color: $dark-green;
+    z-index: 1;
+  }
+
+  &__img-with-fon {
+    margin-top: -197px;
+  }
+
+  &__leaves {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    z-index: -1;
+  }
+
+  &__leaves1 {
+    margin-top: 2158px;
+    margin-left: -80px;
+  }
+  &__leaves2 {
+    margin-top: 1304px;
+    height: 900px;
+    width: 437px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .mainAboutCompany {
+    display: flex;
+    flex-direction: column;
+    margin-top: 104px;
+    width: 100%;
+    position: relative;
+
+    &__first-info-img {
+      width: 387px;
+      height: 382px;
+    }
+
+    &__second-info-img {
+      width: 385px;
+      height: 383px;
+      margin-top: -100px;
+    }
+
+    .mainAboutCompany__fourth-info-img {
+      width: 496px;
+      height: 397px;
+      margin-right: 0;
+    }
+
+    &__infoblock-1,
+    &__infoblock-2,
+    &__infoblock-3,
+    &__infoblock-4,
+    &__infoblock-4-1,
+    &__infoblock-5 {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &__infoblock-2 {
+      margin-top: 63px;
+    }
+
+    &__infoblock-4 {
+      margin-top: 91px;
+      flex-direction: column;
+    }
+
+    &__infoblock-4-1 {
+      margin-top: 20px;
+    }
+
+    &__infoblock-5 {
+      margin-top: 58px;
+    }
+
+    &__title {
+      color: $green;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      -webkit-text-stroke-width: 1;
+      -webkit-text-stroke-color: #000;
+      font-family: "Angst";
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-left: 78px;
+    }
+
+    &__first-text,
+    &__second-text,
+    &__third-text,
+    &__fourth-text,
+    &__fifth-text {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Regular";
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+    }
+
+    &__first-text {
+      margin-left: 79px;
+      margin-top: 32px;
+      margin-right: 146px;
+      width: 828px;
+    }
+
+    &__second-text {
+      margin-left: 237px;
+      margin-right: 80px;
+      margin-top: 10px;
+    }
+
+    &__third-text {
+      margin-left: 85px;
+      margin-top: 132px;
+      margin-right: 154px;
+    }
+
+    &__fourth-text {
+      margin-top: 33px;
+      margin-right: 80px;
+      margin-left: 70px;
+    }
+
+    &__fifth-text {
+      margin-top: 63px;
+      margin-left: 90px;
+      margin-right: 52px;
+    }
+
+    &__third-info-img {
+      margin-right: 130px;
+      margin-top: 40px;
+      width: 255px;
+      height: 382px;
+      z-index: -100;
+    }
+
+    &__second-title {
+      color: $dark-green;
+      text-align: right;
+      font-family: "Angst";
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-left: auto;
+      margin-right: 80px;
+    }
+
+    &__img-with-fonblock {
+      width: 522px;
+      height: 522px;
+      background-color: $dark-green;
+    }
+
+    &__img-with-fon {
+      margin-top: -99px;
+      width: 532px;
+      height: 622px;
+    }
+
+    &__leaves {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      z-index: -9;
+    }
+
+    &__leaves1 {
+      margin-top: 1158px;
+      width: 532.115px;
+      height: 352.933px;
+    }
+    &__leaves2 {
+      margin-top: 664px;
+      width: 239.01px;
+      height: 562.232px;
+    }
+  }
+}

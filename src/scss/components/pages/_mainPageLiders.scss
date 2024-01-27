@@ -1,0 +1,81 @@
+.mainPageLiders {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+
+  &__title {
+    color: $dark-green;
+    font-family: Angst;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: 120px;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 163px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .mainPageLiders {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+  
+    &__title {
+      color: $dark-green;
+      font-family: 'Angst';
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-left: auto;
+      margin-right: 120px;
+    }
+  
+    &__row {
+      display: flex;
+      flex-direction: row;
+      column-gap: 130px;
+      margin-top: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .mainPageLiders {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+  
+    &__title {
+      color: $dark-green;
+      font-family: 'Angst';
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-left: auto;
+      margin-right: 120px;
+    }
+  
+    &__row {
+      display: flex;
+      flex-direction: row;
+      column-gap: 89px;
+      margin-top: 50px;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+.CardBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 546px;
+  height: 826px;
+  background: $white;
+  box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.20);
+  position: relative;
+
+  row-gap: 130px;
+  padding-left: 14px;
+  padding-right: 22px;
+
+  &__gradient-fon {
+    width: 546px;
+    height: 242px;
+    rotate: 180deg;
+    background: linear-gradient(180deg, rgba(16, 140, 61, 0.00) 0%, #108C3D 65.1%);
+    position: absolute;
+    left: 0;
+    margin-bottom: auto;
+    z-index: 1;
+  }
+
+  &__title {
+    margin-top: 50px;
+    color: $white;
+    text-align: center;
+    font-family: 'AvenirNextCyr-Medium';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    z-index: 999;
+  }
+
+  &__info-text {
+    color: $dark-green;
+    font-family: 'AvenirNextCyr-Regular';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .CardBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 413px;
+    height: 562px;
+    background: $white;
+    box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.20);
+    position: relative;
+  
+    row-gap: 90px;
+    padding-left: 21px;
+    padding-right: 13px;
+  
+    &__gradient-fon {
+      rotate: 180deg;
+      width: 414px;
+      height: 133px;
+      background: linear-gradient(180deg, rgba(16, 140, 61, 0.00) 0%, #108C3D 65.1%);
+      position: absolute;
+      left: 0;
+      margin-bottom: auto;
+      z-index: 1;
+    }
+  
+    &__title {
+      margin-top: 25px;
+      color: $white;
+      text-align: center;
+      font-family: 'AvenirNextCyr-Medium';
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+      z-index: 999;
+    }
+  
+    &__info-text {
+      color: $dark-green;
+      font-family: 'AvenirNextCyr-Regular';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

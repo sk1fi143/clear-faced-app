@@ -1,0 +1,208 @@
+.article {
+  display: flex;
+  flex-direction: column;
+
+  &__col1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-left: 120px;
+
+    &__title {
+      cursor: pointer;
+      color: $green;
+      font-family: "AvenirNextCyr-Regular";
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+      text-align: left;
+    }
+
+    &__line {
+      width: 1680px;
+      height: 6px;
+      background: $green;
+    }
+  }
+
+  &__hide {
+    display: flex;
+    flex-direction: column;
+    row-gap: 77px;
+
+    &__none{
+        display: none;
+    }
+
+    &__green {
+      display: flex;
+      align-items: center;
+      width: 1380px;
+      height: 149px;
+      background: $dark-green;
+    }
+
+    &__title {
+      cursor: pointer;
+      margin-left: 120px;
+      color: $white;
+      font-family: "AvenirNextCyr-Medium";
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+    }
+
+    &__row {
+      display: flex;
+      flex-direction: row;
+      column-gap: 161px;
+      margin-left: 123px;
+      margin-top: 77px;
+
+      &__col {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+
+        &__text {
+          white-space: wrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          width: 1110px;
+          height: 147px;
+          color: $dark-green;
+          font-family: "AvenirNextCyr-Regular";
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+        &__open {
+          color: $green;
+          font-family: "AvenirNextCyr-Light";
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          cursor: pointer;
+          text-decoration: underline;
+          margin-left: auto;
+        }
+      }
+
+      &__image {
+        width: 526px;
+        height: 690px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .article {
+    display: flex;
+    flex-direction: column;
+  
+    &__col1 {
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+      margin-left: 80px;
+  
+      &__title {
+        cursor: pointer;
+        color: $green;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+        text-align: left;
+      }
+  
+      &__line {
+        width: 1280px;
+        height: 2px;
+        background: $green;
+      }
+    }
+  
+    &__hide {
+      display: flex;
+      flex-direction: column;
+      row-gap: 72px;
+  
+      &__none{
+          display: none;
+      }
+  
+      &__green {
+        display: flex;
+        align-items: center;
+        width: 734px;
+        height: 67px;
+        background: $dark-green;
+      }
+  
+      &__title {
+        cursor: pointer;
+        margin-left: 78px;
+        color: $white;
+        font-family: "AvenirNextCyr-Medium";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+      }
+  
+      &__row {
+        display: flex;
+        flex-direction: row;
+        column-gap: 128px;
+        margin-left: 80px;
+        margin-top: 72px;
+  
+        &__col {
+          display: flex;
+          flex-direction: column;
+          row-gap: 13px;
+  
+          &__text {
+            white-space: wrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 847px;
+            height: 94px;
+            color: $dark-green;
+            font-family: "AvenirNextCyr-Regular";
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+  
+          &__open {
+            color: $green;
+            font-family: "AvenirNextCyr-Light";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            cursor: pointer;
+            text-decoration: underline;
+            margin-left: auto;
+          }
+        }
+  
+        &__image {
+          width: 385px;
+          height: 398px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

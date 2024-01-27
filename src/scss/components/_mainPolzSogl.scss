@@ -1,0 +1,96 @@
+.MainPolzSogl {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+
+  &__title {
+    margin-top: 116px;
+    color: $green;
+    font-family: 'Angst';
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+    margin-left: 116px;
+  }
+
+  &__secondtitle-block {
+    width: 1373px;
+    height: 237px;
+    background-color: $dark-green;
+    margin-top: 54px;
+    padding: 62px 0px 0px 122px;
+    color: $white;
+    font-family: 'AvenirNextCyr-Regular';
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+  }
+
+  &__main-infoblock {
+    width: 1680px;
+    color: $dark-green;
+    font-family: 'AvenirNextCyr-Medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 26px 117px 19px 124px;
+
+    span{
+      font-family: 'AvenirNextCyr-Bold';
+      margin-top: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .MainPolzSogl {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  
+    &__title {
+      margin-top: 104px;
+      color: $green;
+      font-family: 'Angst';
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-left: 78px;
+    }
+  
+    &__secondtitle-block {
+      width: 734px;
+      height: 119px;
+      background-color: $dark-green;
+      margin-top: 42px;
+      padding: 21px 0px 0px 80px;
+      color: $white;
+      font-family: 'AvenirNextCyr-Regular';
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+    }
+  
+    &__main-infoblock {
+      width: 1283px;
+      color: $dark-green;
+      font-family: 'AvenirNextCyr-Medium';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin: 58px 79px 0 79px;
+  
+      span{
+        font-family: 'AvenirNextCyr-Bold';
+      }
+    }
+  }
+}

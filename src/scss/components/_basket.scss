@@ -1,0 +1,245 @@
+@import "../variables";
+
+.basket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .list{
+    position: absolute;
+    right: 0;
+    bottom: 780px;
+  }
+
+  &__title {
+    margin-top: 123px;
+    color: $green;
+    text-align: center;
+    font-family: "Angst";
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+    margin-right: auto;
+    margin-left: 133px;
+  }
+
+  &__underitemRow {
+    display: flex;
+    flex-direction: row;
+    column-gap: 260px;
+    margin-left: auto;
+    margin-right: 120px;
+    margin-top: 55px;
+    align-items: center;
+
+    &__span {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Regular";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    &__price {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Regular";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  &__promo {
+    width: 953.825px;
+    height: 95.982px;
+    border: 2px solid $dark-green;
+    background: $white;
+    color: $light-green;
+    text-align: center;
+    font-family: "AvenirNextCyr-Medium";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    margin-top: 90px;
+  }
+
+  &__promo::placeholder {
+    color: $light-green;
+    font-family: "AvenirNextCyr-Medium";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    margin-top: 135px;
+    row-gap: 30px;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+
+    &__row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      &__text {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+
+  &__buttonPay {
+    cursor: pointer;
+    width: 629.884px;
+    height: 95.982px;
+    border: 1px solid $dark-green;
+    background: $dark-green;
+    color: $white;
+    text-align: center;
+    font-family: "AvenirNextCyr-Bold";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    margin-top: 76px;
+    margin-bottom: 236px;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .basket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  
+    .list{
+      position: absolute;
+      right: 0;
+      bottom: 640px;
+      width: 340px;
+      height: 585.151px;
+    }
+  
+    &__title {
+      margin-top: 104px;
+      color: $green;
+      text-align: center;
+      font-family: "Angst";
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-right: auto;
+      margin-left: 79px;
+    }
+  
+    &__underitemRow {
+      display: flex;
+      flex-direction: row;
+      column-gap: 200px;
+      margin-left: auto;
+      margin-right: 79px;
+      margin-top: 40px;
+      align-items: center;
+  
+      &__span {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+  
+      &__price {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    &__promo {
+      width: 728.011px;
+      height: 73.259px;
+      border: 2px solid $dark-green;
+      background: $white;
+      color: $light-green;
+      text-align: center;
+      font-family: "AvenirNextCyr-Medium";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+      margin-top: 70px;
+    }
+  
+    &__promo::placeholder {
+      color: $light-green;
+      font-family: "AvenirNextCyr-Medium";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+    }
+  
+    &__col {
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
+      row-gap: 23px;
+      width: 100%;
+      padding-left: 79px;
+      padding-right: 79px;
+  
+      &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+  
+        &__text {
+          color: $dark-green;
+          font-family: "AvenirNextCyr-Regular";
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  
+    &__buttonPay {
+      cursor: pointer;
+      width: 480.762px;
+      height: 73.259px;
+      border: 1px solid $dark-green;
+      background: $dark-green;
+      color: $white;
+      text-align: center;
+      font-family: "AvenirNextCyr-Bold";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+      margin-top: 58px;
+      margin-bottom: 179px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import "../variables";
+@import "./pages/mainPageFirst";
+@import "./pages/mainPageWhatThis";
+@import "./pages/mainPageEffect";
+@import "./pages/mainPageLiders";
+@import "./pages/mainPageAbout";
+
+.mainPage{
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,248 @@
+@import './card';
+
+.MainDostOpl {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__title {
+    margin-top: 116px;
+    margin-left: 119px;
+    color: $green;
+    font-family: 'Angst';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+  }
+
+  &__subtitle {
+    color: $dark-green;
+    font-family: 'AvenirNextCyr-Medium';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin-top: 124px;
+    margin-left: 119px;
+  }
+
+  &__cards-block {
+    display: flex;
+    flex-direction: row;
+    column-gap: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 108px;
+  }
+
+  &__align-right {
+    text-align: right;
+    margin-right: 120px;
+  }
+
+  &__info-block {
+    margin-top: 13px;
+    margin-left: 120px;
+    margin-right: 120px;
+    row-gap: 18px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__info-abz {
+    color: $dark-green;
+    font-family: 'AvenirNextCyr-Regular';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__f-s30 {
+    font-size: 30px;
+    margin-top: 65px;
+  }
+
+  &__info-block-otcl {
+    margin-left: 124px;
+    margin-top: 82px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__subtitleotcl {
+    color: $dark-green;
+    font-family: 'AvenirNextCyr-Medium';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin: auto 0px auto 0px;
+  }
+
+  &__pole-prichina-otcl {
+    width: 1276px;
+    height: 423px;
+    background: $dark-green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__prichina-otcl {
+    text-align: left;
+    color: $white;
+    font-family: 'AvenirNextCyr-Regular';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 50px;
+  }
+
+  &__prichina-otcl:before {
+    content: '• ';
+  }
+  &__footer-info-text {
+    color: $dark-green;
+    font-family: 'AvenirNextCyr-Regular';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  &__leave1 {
+    position: absolute;
+    width: 431.645px;
+    height: 704.163px;
+    top: 608px;
+    right: 5px;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .MainDostOpl {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  
+    &__title {
+      margin-top: 104px;
+      margin-left: 78px;
+      color: $green;
+      font-family: 'Angst';
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+    }
+  
+    &__subtitle {
+      color: $dark-green;
+      font-family: 'AvenirNextCyr-Medium';
+      font-size:  30px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+      margin-top: 61px;
+      margin-left: 80px;
+    }
+  
+    &__cards-block {
+      display: flex;
+      flex-direction: row;
+      column-gap: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 76px;
+    }
+  
+    &__align-right {
+      text-align: right;
+      margin-right: 77px;
+    }
+  
+    &__info-block {
+      margin-top: 24px;
+      margin-left: 80px;
+      margin-right: 80px;
+      row-gap: 13px;
+    }
+  
+    &__info-abz {
+      color: $dark-green;
+      font-family: 'AvenirNextCyr-Regular';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  
+    &__f-s30 {
+      font-size: 15px;
+      margin-top: 0;
+    }
+  
+    &__info-block-otcl {
+      margin-left: 80px;
+      margin-top: 54px;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    &__subtitleotcl {
+      color: $dark-green;
+      font-family: 'AvenirNextCyr-Medium';
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+      margin: auto 0px auto 0px;
+    }
+  
+    &__pole-prichina-otcl {
+      width: 838px;
+      height: 201px;
+      background: $dark-green;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: auto;
+    }
+  
+    &__prichina-otcl {
+      text-align: left;
+      color: $white;
+      font-family: 'AvenirNextCyr-Regular';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      margin-left: 50px;
+    }
+  
+    &__prichina-otcl:before {
+      content: '• ';
+    }
+    &__footer-info-text {
+      color: $dark-green;
+      font-family: 'AvenirNextCyr-Regular';
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 19px;
+      margin-left: 79px;
+      margin-right: 79px;
+    }
+    &__leave1 {
+      position: absolute;
+      width: 319.912px;
+      height: 537.459px;
+      top: 448px;
+      right: 0;
+    }
+  }
+}

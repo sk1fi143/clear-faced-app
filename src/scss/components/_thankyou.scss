@@ -1,0 +1,317 @@
+@import "../variables";
+
+.thank {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .list {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    bottom: -200px;
+  }
+
+  &__title {
+    margin-top: 123px;
+    color: $dark-green;
+    font-family: "Angst";
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+  }
+
+  &__number {
+    color: $light-green;
+    font-family: "AvenirNextCyr-Light";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 80px;
+    line-height: normal;
+  }
+
+  &__underitemRow {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 43px;
+
+    &__span {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Light";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    &__price {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Medium";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 120px;
+    margin-top: 102px;
+    row-gap: 37px;
+
+    &__text {
+      color: $dark-green;
+      cursor: pointer;
+      font-family: "AvenirNextCyr-Light";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  &__button {
+    cursor: pointer;
+    background: transparent;
+    width: 552.462px;
+    height: 73.662px;
+    border: 2px solid $dark-green;
+    color: $green;
+    text-align: center;
+    font-family: "AvenirNextCyr-Bold";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    margin-top: 53px;
+  }
+}
+
+.ThankItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 44px;
+  padding-right: 44px;
+  width: 1400px;
+  height: 233px;
+  border: 3px solid $dark-green;
+  margin-top: 40px;
+
+  &__grey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 138px;
+    height: 136px;
+    background: #d9d9d9;
+
+    img {
+      width: 40px;
+      height: 126px;
+    }
+  }
+
+  &__title {
+    color: $dark-green;
+    font-family: "AvenirNextCyr-Light";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 118px;
+    margin-left: auto;
+
+    &__count {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Light";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    &__price {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Medium";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .thank {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .list {
+      position: absolute;
+      right: 0;
+      z-index: -1;
+      bottom: 100px;
+      width: 358.003px;
+      height: 465.258px;
+    }
+
+    &__title {
+      margin-top: 104px;
+      color: $dark-green;
+      font-family: "Angst";
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+    }
+
+    &__number {
+      color: $light-green;
+      font-family: "AvenirNextCyr-Light";
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 70px;
+    }
+
+    &__underitemRow {
+      display: flex;
+      flex-direction: row;
+      column-gap: 10px;
+      margin-top: 35px;
+
+      &__span {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Light";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      &__price {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Medium";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+
+    &__col {
+      display: flex;
+      flex-direction: column;
+      margin-right: auto;
+      margin-left: 80px;
+      margin-top: 84px;
+      row-gap: 30px;
+
+      &__text {
+        color: $dark-green;
+        cursor: pointer;
+        font-family: "AvenirNextCyr-Light";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+
+    &__button {
+      cursor: pointer;
+      background: transparent;
+      width: 453.759px;
+      height: 60.501px;
+      border: 2px solid $dark-green;
+      color: $green;
+      text-align: center;
+      font-family: "AvenirNextCyr-Bold";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+      margin-top: 43px;
+    }
+  }
+
+  .ThankItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 33px;
+    padding-right: 33px;
+    width: 1060px;
+    height: 177px;
+    border: 3px solid $dark-green;
+    margin-top: 30px;
+
+    &__grey {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 105px;
+      height: 104px;
+      background: #d9d9d9;
+
+      img {
+        width: 29px;
+        height: 96px;
+      }
+    }
+
+    &__title {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Light";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-left: 23px;
+    }
+
+    &__row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      column-gap: 90px;
+      margin-left: auto;
+
+      &__count {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Light";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      &__price {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Medium";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 750;
+        line-height: normal;
+      }
+    }
+  }
+}

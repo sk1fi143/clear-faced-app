@@ -1,0 +1,181 @@
+@import "../variables";
+
+.BasketItem {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: row;
+  width: 1681px;
+  height: 276px;
+  border: 3px solid $dark-green;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  &__grey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 174px;
+    height: 167px;
+    background: #d9d9d9;
+
+    img {
+      width: 45px;
+      height: 156px;
+    }
+  }
+
+  &__title {
+    color: $dark-green;
+    font-family: "AvenirNextCyr-Regular";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 35px;
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    row-gap: 20px;
+
+    &__price {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Medium";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+      margin-left: auto;
+    }
+
+    &__row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      column-gap: 18px;
+
+      .button {
+        width: 101px;
+        height: 53px;
+        border: 2px solid $light-green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .count {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Bold";
+        font-size: 66px;
+        font-style: normal;
+        font-weight: 750;
+        line-height: normal;
+      }
+
+      .delete {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Bold";
+        font-size: 66px;
+        font-style: normal;
+        font-weight: 750;
+        line-height: normal;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .BasketItem {
+    display: flex;
+    margin-top: 35px;
+    flex-direction: row;
+    width: 1283px;
+    height: 211px;
+    border: 3px solid $dark-green;
+    align-items: center;
+    padding-left: 38px;
+    padding-right: 38px;
+  
+    &__grey {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 133px;
+      height: 128px;
+      background: #d9d9d9;
+  
+      img {
+        width: 35px;
+        height: 119px;
+      }
+    }
+  
+    &__title {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Regular";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-left: 35px;
+    }
+  
+    &__col {
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      row-gap: 20px;
+  
+      &__price {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Medium";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+        margin-left: auto;
+      }
+  
+      &__row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 12px;
+  
+        .button {
+          width: 77px;
+          height: 41px;
+          border: 2px solid $light-green;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+        }
+  
+        .count {
+          color: $dark-green;
+          font-family: "AvenirNextCyr-Bold";
+          font-size: 54px;
+          font-style: normal;
+          font-weight: 750;
+          line-height: normal;
+        }
+  
+        .delete {
+          color: $dark-green;
+          font-family: "AvenirNextCyr-Bold";
+          font-size: 54px;
+          font-style: normal;
+          font-weight: 750;
+          line-height: normal;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
