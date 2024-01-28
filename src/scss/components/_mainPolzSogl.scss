@@ -94,3 +94,75 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px){
+  .MainPolzSogl {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  
+    &__title {
+      margin-top: 73px;
+      color: $green;
+      font-family: 'Angst';
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-left: 80px;
+    }
+  
+    &__secondtitle-block {
+      width: 734px;
+      height: 119px;
+      background-color: $dark-green;
+      margin-top: 20px;
+      padding: 28px 0px 0px 80px;
+      color: $white;
+      font-family: 'AvenirNextCyr-Regular';
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+    }
+  
+    &__main-infoblock {
+      width: 863px;
+      color: $dark-green;
+      font-family: 'AvenirNextCyr-Medium';
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin: 28px 79px 0 79px;
+  
+      span{
+        font-family: 'AvenirNextCyr-Bold';
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .MainPolzSogl {
+    width: 100%;
+
+    &__title {
+      font-size: 17px;
+      margin: 20px 0px 0px 20px;
+    }
+
+    &__secondtitle-block {
+      width: 284px;
+      height: 78px;
+      font-size: 17px;
+      padding: 9px 0px 0px 22px;
+    }
+
+    &__main-infoblock {
+      margin: 26px 21px 0px 21px;
+      width: 90%;
+    }
+  }
+}

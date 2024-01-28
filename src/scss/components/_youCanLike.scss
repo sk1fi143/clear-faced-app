@@ -1,6 +1,6 @@
 @import "../variables";
 
-.YouCanLike{
+.YouCanLike {
   margin-top: 0;
   display: flex;
   flex-direction: column;
@@ -19,13 +19,13 @@
   }
 }
 
-@media screen and (max-width: 1440px){
-  .YouCanLike{
+@media screen and (max-width: 1440px) {
+  .YouCanLike {
     margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+
     &__title {
       margin-bottom: 50px;
       margin-left: auto;
@@ -41,13 +41,13 @@
   }
 }
 
-@media screen and (max-width: 1024px){
-  .YouCanLike{
+@media screen and (max-width: 1024px) {
+  .YouCanLike {
     margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+
     &__title {
       margin-bottom: 0;
       margin-left: auto;
@@ -56,6 +56,28 @@
       text-align: right;
       font-family: "Angst";
       font-size: 30px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .YouCanLike {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+      margin-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+      color: $dark-green;
+      text-align: right;
+      font-family: "Angst";
+      font-size: 19px;
       font-style: normal;
       font-weight: 50;
       line-height: normal;

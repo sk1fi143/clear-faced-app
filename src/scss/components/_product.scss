@@ -20,7 +20,7 @@
     }
   }
 
-  .product-card:hover .product-card__image{
+  .product-card:hover .product-card__image {
     scale: 1.08;
     transition: 0.5 ease;
   }
@@ -40,7 +40,7 @@
 
       &__title {
         color: $light-green;
-        font-family: 'AvenirNextCyr-Regular';
+        font-family: "AvenirNextCyr-Regular";
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -49,13 +49,13 @@
 
       &__span {
         color: $grey;
-        font-family: 'AvenirNextCyr-Light';
+        font-family: "AvenirNextCyr-Light";
         font-size: 30px;
         font-style: normal;
         font-weight: 400;
         width: 300px;
         line-height: normal;
-        text-align:left;
+        text-align: left;
       }
     }
 
@@ -67,7 +67,7 @@
 
       &__price {
         color: $grey;
-        font-family: 'AvenirNextCyr-Medium';
+        font-family: "AvenirNextCyr-Medium";
         font-size: 30px;
         font-style: normal;
         font-weight: 450;
@@ -77,7 +77,7 @@
   }
 
   .button-add {
-    font-family: 'AvenirNextCyr-Bold';
+    font-family: "AvenirNextCyr-Bold";
     margin-top: 36px;
     width: 414.443px;
     height: 48.656px;
@@ -91,16 +91,15 @@
     font-weight: 750;
     line-height: normal;
   }
-
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px) {
   .productSection {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 413px;
-  
+
     .product-card {
       cursor: pointer;
       display: flex;
@@ -110,65 +109,65 @@
       height: 489px;
       background: $white;
       box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.2);
-  
+
       &__image {
         width: 136px;
         height: 426px;
       }
     }
-  
-    .product-card:hover .product-card__image{
+
+    .product-card:hover .product-card__image {
       scale: 1.08;
       transition: 0.5 ease;
     }
-  
+
     &__row {
       width: 100%;
       margin-top: 10px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-  
+
       &__col {
         display: flex;
         flex-direction: column;
         row-gap: 5px;
         justify-content: space-between;
-  
+
         &__title {
           color: $light-green;
-          font-family: 'AvenirNextCyr-Regular';
+          font-family: "AvenirNextCyr-Regular";
           font-size: 10px;
           font-style: normal;
           font-weight: 400;
           line-height: normal;
         }
-  
+
         &__span {
           color: $grey;
-          font-family: 'AvenirNextCyr-Light';
+          font-family: "AvenirNextCyr-Light";
           font-size: 20px;
           font-style: normal;
           font-weight: 400;
           width: 200px;
           line-height: normal;
-          text-align:left;
+          text-align: left;
         }
       }
-  
+
       &__col2 {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         justify-content: space-between;
 
-        svg{
+        svg {
           height: 16.937px;
         }
-  
+
         &__price {
           color: $grey;
-          font-family: 'AvenirNextCyr-Medium';
+          font-family: "AvenirNextCyr-Medium";
           font-size: 20px;
           font-style: normal;
           font-weight: 450;
@@ -176,9 +175,9 @@
         }
       }
     }
-  
+
     .button-add {
-      font-family: 'AvenirNextCyr-Bold';
+      font-family: "AvenirNextCyr-Bold";
       margin-top: 36px;
       width: 314.159px;
       height: 48px;
@@ -192,17 +191,16 @@
       font-weight: 750;
       line-height: normal;
     }
-  
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .productSection {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 282px;
-  
+
     .product-card {
       cursor: pointer;
       display: flex;
@@ -212,65 +210,65 @@
       height: 334px;
       background: $white;
       box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.2);
-  
+
       &__image {
         width: 93px;
         height: 291px;
       }
     }
-  
-    .product-card:hover .product-card__image{
+
+    .product-card:hover .product-card__image {
       scale: 1.08;
       transition: 0.5 ease;
     }
-  
+
     &__row {
       width: 282px;
       margin-top: 10px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-  
+
       &__col {
         display: flex;
         flex-direction: column;
         row-gap: 5px;
         justify-content: space-between;
-  
+
         &__title {
           color: $light-green;
-          font-family: 'AvenirNextCyr-Regular';
+          font-family: "AvenirNextCyr-Regular";
           font-size: 10px;
           font-style: normal;
           font-weight: 400;
           line-height: normal;
         }
-  
+
         &__span {
           color: $grey;
-          font-family: 'AvenirNextCyr-Light';
+          font-family: "AvenirNextCyr-Light";
           font-size: 15px;
           font-style: normal;
           font-weight: 400;
           width: 200px;
           line-height: normal;
-          text-align:left;
+          text-align: left;
         }
       }
-  
+
       &__col2 {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         justify-content: space-between;
 
-        svg{
+        svg {
           height: 12px;
         }
-  
+
         &__price {
           color: $grey;
-          font-family: 'AvenirNextCyr-Medium';
+          font-family: "AvenirNextCyr-Medium";
           font-size: 14px;
           font-style: normal;
           font-weight: 450;
@@ -279,9 +277,9 @@
         }
       }
     }
-  
+
     .button-add {
-      font-family: 'AvenirNextCyr-Bold';
+      font-family: "AvenirNextCyr-Bold";
       margin-top: 10px;
       width: 214.214px;
       height: 32.73px;
@@ -295,6 +293,127 @@
       font-weight: 750;
       line-height: normal;
     }
-  
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .productSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 185px;
+
+    .product-card {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 185px;
+      height: 208px;
+      background: $white;
+      box-shadow: 0px 5px 28.8px 1px rgba(0, 0, 0, 0.1);
+
+      &__image {
+        width: 55px;
+        height: 170px;
+      }
+    }
+
+    .product-card:hover .product-card__image {
+      scale: 1.08;
+      transition: 0.5 ease;
+    }
+
+    &__row {
+      width: 185px;
+      margin-top: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      &__col {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        justify-content: space-between;
+
+        &__title {
+          display: none;
+        }
+
+        &__span {
+          color: $grey;
+          font-family: "AvenirNextCyr-Light";
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          width: 185px;
+          line-height: normal;
+          text-align: left;
+        }
+      }
+
+      &__col2 {
+        display: none;
+      }
+    }
+
+    .button-add {
+      width: 181px;
+      height: 27px;
+      border: 1px solid $dark-green;
+      color: $green;
+      text-align: center;
+      font-family: "AvenirNextCyr-Bold";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+    }
+  }
+}
+
+@media screen and (max-width: 720px){
+  .productSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 185px;
+
+    &__row__col__title,
+    &__row__col2 {
+      display: none;
+    }
+
+    .button-add{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 12px;
+      margin-right: auto;
+    }
+
+    &__row__col__span {
+      margin-top: 15px;
+      color: #4a4141;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-left: 12px;
+    }
+
+    .product-card {
+      width: 185px;
+      height: 208px;
+      background: #fff;
+      box-shadow: 0px 5px 28.8px 1px rgba(0, 0, 0, 0.1);
+      margin-left: 20px;
+    }
+
+    .product-card__image {
+      width: 55px;
+      height: 170px;
+    }
   }
 }

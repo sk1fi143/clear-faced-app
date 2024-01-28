@@ -248,3 +248,258 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px){
+  .ProductCard {
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-right: 80px;
+    column-gap: 86px;
+    margin-top: 100px;
+  
+    &__col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      &__mainImage {
+        width: 352px;
+        height: 434px;
+        position: relative;
+        
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+  
+      &__rowImage {
+        display: flex;
+        flex-direction: row;
+        margin-top: 13px;
+        column-gap: 13px;
+  
+        &__grey {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 60px;
+          height: 61px;
+          background: #d9d9d9;
+  
+          img{
+            object-fit: cover;
+            height: 57px;
+            
+          }
+        }
+      }
+  
+      &__rowTitle {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100%;
+  
+        h1 {
+          color: $green;
+          font-family: "Angst";
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 50;
+          line-height: normal;
+        }
+  
+        .size {
+          display: none;
+        }
+      }
+  
+      h2 {
+        color: $green;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-right: auto;
+        margin-top: 10px;
+      }
+  
+      p {
+        margin-top: 48px;
+        color: $grey;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+  
+      &__rowBtn {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        align-items: center;
+        column-gap: 90px;
+        margin-top: 120px;
+  
+        span {
+          color: $grey;
+          font-family: "AvenirNextCyr-Medium";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 450;
+          line-height: normal;
+        }
+  
+        button {
+          cursor: pointer;
+          background: transparent;
+          width: 236.109px;
+          height: 32.105px;
+          border: 3px solid $dark-green;
+          color: $dark-green;
+          text-align: center;
+          font-family: "AvenirNextCyr-Bold";
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 750;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 720px){
+  .ProductCard {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 64px;
+  
+    &__col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      &__mainImage {
+        width: 234px;
+        height: 234px;
+        object-fit: cover;
+        position: relative;
+        
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+  
+      &__rowImage {
+        display: flex;
+        flex-direction: row;
+        margin-top: 13px;
+        column-gap: 13px;
+  
+        &__grey {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 20px;
+          height: 19px;
+          background: #d9d9d9;
+  
+          img{
+            object-fit: cover;
+            height: 17px;
+            
+          }
+        }
+      }
+  
+      &__rowTitle {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 20px;
+  
+        h1 {
+          color: $green;
+          font-family: "Angst";
+          font-size: 19px;
+          font-style: normal;
+          font-weight: 50;
+          line-height: normal;
+        }
+  
+        .size {
+          display: none;
+        }
+      }
+  
+      h2 {
+        color: $green;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-right: auto;
+        position: absolute;
+        top: 60px;
+        left: 20px;
+      }
+  
+      p {
+        margin-top: 10px;
+        color: $grey;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+  
+      &__rowBtn {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        align-items: center;
+        column-gap: 60px;
+        margin-top: 17px;
+  
+        span {
+          color: $grey;
+          font-family: "AvenirNextCyr-Medium";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 450;
+          line-height: normal;
+        }
+  
+        button {
+          cursor: pointer;
+          background: transparent;
+          width: 181px;
+          height: 27px;
+          border: 1px solid $dark-green;
+          color: $dark-green;
+          text-align: center;
+          font-family: "AvenirNextCyr-Bold";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 750;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}

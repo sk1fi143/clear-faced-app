@@ -243,3 +243,212 @@
     }
   }
 }
+@media screen and (max-width: 1024px){
+  .basket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  
+    .list{
+      position: absolute;
+      right: 0;
+      bottom: 400px;
+      width: 341.407px;
+      height: 539.073px;
+    }
+  
+    &__title {
+      margin-top: 100px;
+      color: $green;
+      text-align: center;
+      font-family: "Angst";
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-right: auto;
+      margin-left: 77px;
+    }
+  
+    &__underitemRow {
+      display: flex;
+      flex-direction: row;
+      column-gap: 135px;
+      margin-left: auto;
+      margin-right: 79px;
+      margin-top: 28px;
+      align-items: center;
+  
+      &__span {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+  
+      &__price {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    &__promo {
+      width: 490.068px;
+      height: 49.315px;
+      border: 2px solid $dark-green;
+      background: $white;
+      color: $light-green;
+      text-align: center;
+      font-family: "AvenirNextCyr-Medium";
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+      margin-top: 46px;
+    }
+  
+    &__promo::placeholder {
+      color: $light-green;
+      font-family: "AvenirNextCyr-Medium";
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+    }
+  
+    &__col {
+      display: flex;
+      flex-direction: column;
+      margin-top: 69px;
+      row-gap: 20px;
+      width: 100%;
+      padding-left: 79px;
+      padding-right: 79px;
+  
+      &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+  
+        &__text {
+          color: $dark-green;
+          font-family: "AvenirNextCyr-Regular";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  
+    &__buttonPay {
+      cursor: pointer;
+      width: 323.63px;
+      height: 49.315px;
+      border: 1px solid $dark-green;
+      background: $dark-green;
+      color: $white;
+      text-align: center;
+      font-family: "AvenirNextCyr-Bold";
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+      margin-top: 40px;
+      margin-bottom: 130px;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .basket {
+    width: 100%;
+    padding: 0px 20px;
+
+    &__buttonPay {
+      margin-top: 28px;
+      margin-bottom: 45px;
+      width: 227px;
+      height: 28px;
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+    }
+
+    &__col {
+      margin-top: 17px;
+      padding: 0px;
+      row-gap: 6px;
+    }
+
+    &__col__row {
+      width: 100%;
+    }
+
+    &__col__row__text {
+      font-size: 15px;
+    }
+
+    &__promo {
+      margin: 14px auto 0px auto;
+      width: 175px;
+      height: 27px;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+      padding: 3px 11px 4px 9px;
+    }
+
+    &__promo::placeholder {
+      color: rgba(90, 181, 118, 0.6);
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+    }
+
+    &__underitemRow {
+      margin-top: 13px;
+      column-gap: 0px;
+      justify-content: space-between;
+      width: 100%;
+      margin-right: 0px;
+    }
+
+    &__underitemRow__span,
+    &__underitemRow__price {
+      color: #4a4141;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      min-width: 140px;
+    }
+
+    &__underitemRow__price {
+      text-align: right;
+    }
+
+    &__title {
+      text-align: left;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin: 20px auto 7px 0px;
+    }
+  }
+}

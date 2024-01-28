@@ -5,6 +5,13 @@
   width: 100%;
   position: relative;
 
+  .mainAboutCompany__leaves1320,
+  .mainAboutCompany__leaves2320,
+  .mainAboutCompany__leaves3320,
+  .mainAboutCompany__leaves4320{
+    display: none;
+  }
+
   .mainAboutCompany__fourth-info-img {
     width: 769px;
     height: 615px;
@@ -224,7 +231,7 @@
     &__first-text {
       margin-left: 79px;
       margin-top: 32px;
-      margin-right: 146px;
+      margin-right: 100px;
       width: 828px;
     }
 
@@ -250,6 +257,7 @@
       margin-top: 63px;
       margin-left: 90px;
       margin-right: 52px;
+      width: 805px;
     }
 
     &__third-info-img {
@@ -302,6 +310,310 @@
       margin-top: 664px;
       width: 239.01px;
       height: 562.232px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .mainAboutCompany {
+    display: flex;
+    flex-direction: column;
+    margin-top: 98px;
+    width: 100%;
+    position: relative;
+
+    &__first-info-img {
+      width: 283px;
+      height: 280px;      
+    }
+
+    &__second-info-img {
+      width: 281px;
+      height: 279px;
+      margin-top: -10px;
+    }
+
+    .mainAboutCompany__fourth-info-img {
+      width: 352px;
+      height: 282px;
+      margin-right: 0;
+    }
+
+    &__infoblock-1,
+    &__infoblock-2,
+    &__infoblock-3,
+    &__infoblock-4,
+    &__infoblock-4-1,
+    &__infoblock-5 {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &__infoblock-2 {
+      margin-top: 0px;
+    }
+
+    &__infoblock-4 {
+      margin-top: 91px;
+      flex-direction: column;
+    }
+
+    &__infoblock-4-1 {
+      margin-top: 20px;
+    }
+
+    &__infoblock-5 {
+      margin-top: 58px;
+    }
+
+    &__title {
+      color: $green;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      -webkit-text-stroke-width: 1;
+      -webkit-text-stroke-color: #000;
+      font-family: "Angst";
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-left: 59px;
+    }
+
+    &__first-text,
+    &__second-text,
+    &__third-text,
+    &__fourth-text,
+    &__fifth-text {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Regular";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+    }
+
+    &__first-text {
+      margin-left: 59px;
+      margin-top: 34px;
+      margin-right: 95px;
+      width: 578px;
+    }
+
+    &__second-text {
+      margin-left: 153px;
+      margin-right: 80px;
+      margin-top: 26px;
+    }
+
+    &__third-text {
+      margin-top: 39px;
+      margin-right: 121px;
+      margin-left: 62px;
+    }
+
+    &__fourth-text {
+      margin-top: 25px;
+      margin-right: 80px;
+      margin-left: 40px;
+    }
+
+    &__fifth-text {
+      margin-top: 45px;
+      margin-left: 66px;
+      margin-right: 37px;
+      width: 572px;
+    }
+
+    &__third-info-img {
+      margin-right: 80px;
+      margin-top: 16px;
+      width: 180px;
+      height: 271px;
+    }
+
+    &__second-title {
+      color: $dark-green;
+      text-align: right;
+      font-family: "Angst";
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin-left: auto;
+      margin-right: 55px;
+    }
+
+    &__img-with-fonblock {
+      width: 450px;
+      height: 450px;
+      background-color: $dark-green;
+    }
+
+    &__img-with-fon {
+      margin-top: -99px;
+      width: 480px;
+      height: 549px;
+    }
+
+    &__leaves {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      z-index: -9;
+    }
+
+    &__leaves1 {
+      margin-top: 802px;
+      width: 432.115px;
+      height: 282.933px;
+    }
+    &__leaves2 {
+      margin-top: 484px;
+      width: 159.01px;
+      height: 402.232px;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .mainAboutCompany {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+
+    .mainAboutCompany__leaves1320,
+    .mainAboutCompany__leaves2320,
+    .mainAboutCompany__leaves3320,
+    .mainAboutCompany__leaves4320{
+      display: block;
+    }
+
+    .mainAboutCompany__leaves4320{
+      z-index: 999;
+    }
+
+    &__leaves320 {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 100%;
+    }
+
+    &__leaves1320 {
+      margin-top: 239px;
+      margin-left: auto;
+    }
+
+    &__leaves2320 {
+      margin-top: 291px;
+      margin-right: auto;
+    }
+
+    &__leaves3320 {
+      margin-top: 265px;
+      margin-left: auto;
+    }
+
+    &__leaves4320 {
+      margin-top: 480px;
+      margin-left: auto;
+    }
+
+    &__infoblock-1,
+    &__infoblock-3,
+    &__infoblock-4,
+    &__infoblock-5 {
+      flex-direction: column;
+      margin-top: 0px;
+      width: 100%;
+    }
+
+    &__img-with-fonblock {
+      margin-top: 86px;
+      width: 100%;
+      height: 142px;
+    }
+
+    &__infoblock-2 {
+      flex-direction: column-reverse;
+      margin-top: 0px;
+    }
+
+    &__first-text,
+    &__second-text,
+    &__third-text,
+    &__fourth-text,
+    &__fifth-text {
+      font-size: 16px;
+      margin: 20px 0px 0px 20px;
+      width: 280px;
+    }
+
+    &__leaves {
+      display: none;
+    }
+
+    &__first-info-img {
+      margin: 8px auto 0px 20px;
+      width: 184px;
+      height: 182px;
+    }
+
+    &__second-info-img {
+      width: 204px;
+      height: 204px;
+      margin-top: 15px;
+      margin-left: auto;
+    }
+
+    &__third-info-img {
+      width: 184px;
+      height: 270px;
+      margin: 19px 0px 0px 20px;
+    }
+
+    &__title {
+      text-align: left;
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: normal;
+      margin: 20px 0px 0px 20px;
+    }
+
+    &__infoblock-4-1 {
+      flex-direction: column-reverse;
+    }
+
+    &__fourth-info-img {
+      width: 100%;
+      height: 256px;
+    }
+
+    &__second-title {
+      font-size: 19px;
+      text-align: right;
+      margin-top: 19px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: -20px;
+    }
+
+    .mainAboutCompany__fourth-info-img {
+      width: 100%;
+      height: 256px;
+      margin-top: 20px;
+      margin-bottom: -40px;
+    }
+
+    &__img-with-fon {
+      width: 167px;
+      height: 206px;
+      margin: -64px 0px 0px 0px;
     }
   }
 }

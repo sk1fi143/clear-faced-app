@@ -1,5 +1,3 @@
-@import "../variables";
-
 .BasketItem {
   display: flex;
   margin-top: 40px;
@@ -155,6 +153,11 @@
           align-items: center;
           justify-content: center;
           cursor: pointer;
+
+          svg{
+            width: 23px;
+            height: 23px;
+          }
         }
   
         .count {
@@ -176,6 +179,176 @@
           cursor: pointer;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .BasketItem {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    width: 863px;
+    height: 142px;    
+    border: 3px solid $dark-green;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+    &__grey {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 89px;
+      height: 86px;
+      background: #d9d9d9;
+  
+      img {
+        width: 24px;
+        height: 80px;
+      }
+    }
+  
+    &__title {
+      color: $dark-green;
+      font-family: "AvenirNextCyr-Regular";
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-left: 18px;
+    }
+  
+    &__col {
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      row-gap: 20px;
+  
+      &__price {
+        color: $dark-green;
+        font-family: "AvenirNextCyr-Medium";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+        margin-left: auto;
+      }
+  
+      &__row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 8px;
+  
+        .button {
+          width: 52px;
+          height: 28px;
+          border: 2px solid $light-green;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+
+          svg{
+            width: 15px;
+            height: 15px;
+          }
+        }
+  
+        .count {
+          color: $dark-green;
+          font-family: "AvenirNextCyr-Bold";
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 750;
+          line-height: normal;
+        }
+  
+        .delete {
+          color: $dark-green;
+          font-family: "AvenirNextCyr-Bold";
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 750;
+          line-height: normal;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 720px) {
+  .BasketItem {
+    width: 280px;
+    height: 46px;
+    border: 1px solid #108c3d;
+    padding: 9px;
+    margin-top: 8px;
+
+    &__col {
+      row-gap: 4px;
+      text-align: right;
+    }
+
+    &__col__row {
+      column-gap: 3px;
+    }
+
+    .button {
+      width: 17px;
+      height: 9px;
+      border: 0.5px solid #5AB576;
+
+      svg{
+        width: 5px;
+        height: 5px;
+      }
+    }
+
+    .count {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+    }
+
+    .delete {
+      font-size: 7px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+    }
+
+    &__col__price {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+      margin: 0px;
+    }
+
+    &__title {
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-left: 6px;
+      max-width: 140px;
+    }
+
+    &__grey {
+      min-width: 28px;
+      max-width: 28px;
+      height: 28px;
+      margin: 0px;
+      background: #d9d9d9;
+    }
+
+    &__grey img {
+      width: 8px;
+      height: 26px;
+      margin: auto;
     }
   }
 }

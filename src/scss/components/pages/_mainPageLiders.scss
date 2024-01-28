@@ -24,17 +24,17 @@
   }
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px) {
   .mainPageLiders {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #fff;
-  
+
     &__title {
       color: $dark-green;
-      font-family: 'Angst';
+      font-family: "Angst";
       font-size: 50px;
       font-style: normal;
       font-weight: 50;
@@ -42,7 +42,7 @@
       margin-left: auto;
       margin-right: 120px;
     }
-  
+
     &__row {
       display: flex;
       flex-direction: row;
@@ -52,17 +52,17 @@
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .mainPageLiders {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #fff;
-  
+
     &__title {
       color: $dark-green;
-      font-family: 'Angst';
+      font-family: "Angst";
       font-size: 30px;
       font-style: normal;
       font-weight: 50;
@@ -70,12 +70,46 @@
       margin-left: auto;
       margin-right: 120px;
     }
-  
+
     &__row {
       display: flex;
       flex-direction: row;
       column-gap: 89px;
       margin-top: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .mainPageLiders {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    column-gap: 24px;
+
+    &__title {
+      font-size: 19px;
+      margin: auto;
+      display: inline-block;
+    }
+
+    &__row {
+      padding-top: 15px;
+      margin-top: 0;
+      padding-left: 20px;
+      width: 100%;
+      overflow-y: none;
+      overflow-x: scroll;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      white-space: nowrap;
+      column-gap: 24px;
     }
   }
 }

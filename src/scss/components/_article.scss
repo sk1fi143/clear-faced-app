@@ -206,3 +206,216 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px){
+  .article {
+    display: flex;
+    flex-direction: column;
+  
+    &__col1 {
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+      margin-left: 80px;
+  
+      &__title {
+        cursor: pointer;
+        color: $green;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+        text-align: left;
+      }
+  
+      &__line {
+        width: 863px;
+        height: 2px;
+        background: $green;
+      }
+    }
+  
+    &__hide {
+      display: flex;
+      flex-direction: column;
+      row-gap: 65px;
+  
+      &__none{
+          display: none;
+      }
+  
+      &__green {
+        display: flex;
+        align-items: center;
+        width: 722px;
+        height: 65px;
+        background: $dark-green;
+      }
+  
+      &__title {
+        cursor: pointer;
+        margin-left: 78px;
+        color: $white;
+        font-family: "AvenirNextCyr-Medium";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+      }
+  
+      &__row {
+        display: flex;
+        flex-direction: row;
+        column-gap: 93px;
+        margin-left: 80px;
+        margin-top: 65px;
+  
+        &__col {
+          display: flex;
+          flex-direction: column;
+          row-gap: 8px;
+  
+          &__text {
+            white-space: wrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 569px;
+            height: 48px;
+            color: $dark-green;
+            font-family: "AvenirNextCyr-Regular";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+  
+          &__open {
+            color: $green;
+            font-family: "AvenirNextCyr-Light";
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            cursor: pointer;
+            text-decoration: underline;
+            margin-left: auto;
+          }
+        }
+  
+        &__image {
+          width: 281px;
+          height: 283px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 720px){
+  .article {
+    display: flex;
+    flex-direction: column;
+  
+    &__col1 {
+      display: flex;
+      flex-direction: column;
+      row-gap: 3px;
+      margin-left: 20px;
+  
+      &__title {
+        cursor: pointer;
+        color: $green;
+        font-family: "AvenirNextCyr-Regular";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+        text-align: left;
+      }
+  
+      &__line {
+        width: 280px;
+        height: 1px;
+        background: $green;
+      }
+    }
+  
+    &__hide {
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+  
+      &__none{
+          display: none;
+      }
+  
+      &__green {
+        display: flex;
+        align-items: center;
+        width: 225px;
+        height: 22px;
+        background: $dark-green;
+      }
+  
+      &__title {
+        cursor: pointer;
+        margin-left: 20px;
+        color: $white;
+        font-family: "AvenirNextCyr-Medium";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+      }
+  
+      &__row {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        margin-left: 20px;
+        margin-top: 0;
+  
+        &__col {
+          display: flex;
+          flex-direction: column;
+          row-gap: 5px;
+  
+          &__text {
+            white-space: wrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 280px;
+            height: 87px;
+            color: $dark-green;
+            font-family: "AvenirNextCyr-Regular";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+  
+          &__open {
+            color: $green;
+            font-family: "AvenirNextCyr-Light";
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            cursor: pointer;
+            text-decoration: underline;
+            margin-left: auto;
+            margin-right: 30px;
+          }
+        }
+  
+        &__image {
+          width: 116px;
+          height: 111px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

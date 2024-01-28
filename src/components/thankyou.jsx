@@ -1,16 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import ThankItem from "./thankItem";
-import thankList from "../assets/img/thankList.png";
-import { clearItems } from "../redux/slices/basketSlice";
-import { useLayoutEffect } from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import ThankItem from './thankItem';
+import thankList from '../assets/img/thankList.png';
+import thankList320 from '../assets/img/thank320list.png';
+import { clearItems } from '../redux/slices/basketSlice';
+import { useLayoutEffect } from 'react';
 
 function Thankyou() {
   useLayoutEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   });
-  
+
   const dispatch = useDispatch();
   const items = useSelector((state) => state.basketSlice.items);
   let totalCount = 0;
@@ -42,7 +43,12 @@ function Thankyou() {
         <span className="thank__col__text">Адрес доставки</span>
         <span className="thank__col__text">sms напоминание</span>
       </div>
-      <Link to="/"><button className="thank__button" onClick={onClickClear}>Вернуться на главную</button></Link>
+      <Link to="/">
+        <button className="thank__button" onClick={onClickClear}>
+          Вернуться на главную
+        </button>
+      </Link>
+      <img className="thank__list320" src={thankList320} alt=""></img>
     </div>
   );
 }

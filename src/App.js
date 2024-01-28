@@ -2,7 +2,6 @@ import "./scss/app.scss";
 import Header from "./components/header.jsx";
 import MainPage from "./components/mainPage.jsx";
 import Catalog from './components/catalog.jsx';
-import YouCanLike from "./components/youCanLike.jsx";
 import Footer from "./components/footer.jsx";
 import Basket from "./components/basket.jsx";
 import Thankyou from "./components/thankyou.jsx";

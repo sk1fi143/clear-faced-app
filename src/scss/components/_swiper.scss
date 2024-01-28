@@ -210,3 +210,224 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px){
+  .mainSwiper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    &__title {
+      color: $dark-green;
+      font-family: 'AvenirNextCyr-Medium';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+      margin-left: 80px;
+      margin-right: auto;
+    }
+  
+    .swiper {
+      overflow: visible !important;
+      margin-top: 100px;
+    }
+    .swiper-slide.active {
+      scale: 1.6;
+      transition: scale 0.5s ease !important; /* добавление плавности анимации */
+      margin-top: 0px;
+      z-index: 10;
+
+      h4{
+        font-size: 15px;
+      }
+
+      p{
+        text-align: center;
+        margin-left: 0;
+        font-size: 12px;
+      }
+    }
+    .swiper-slide:nth-child(-n + 3) {
+      margin-right: -20px !important;
+    }
+    .swiper-slide:nth-last-child(-n + 3) {
+      margin-right: -20px !important;
+    }
+    .swiper-slide {
+      cursor: default;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 136px !important;
+      height: 159px;
+      box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.2);
+      padding-bottom: 0px;
+      justify-content: space-between;
+      margin-right: 0px !important;
+      background: $white;
+      z-index: 3;
+  
+      .swiper-green {
+        position: absolute;
+        width: 100%;
+        height: 67px;
+        rotate: 180deg;
+        background: linear-gradient(180deg, rgba(16, 140, 61, 0.00) 0%, rgba(57, 163, 93, 0.84) 36.46%, #39A35D 60.42%, #108C3D 100%);
+      }
+  
+      &__title {
+        color: $white;
+        z-index: 2;
+        text-align: center;
+        font-family: 'AvenirNextCyr-Regular';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+        margin-top: 5px;
+        width: 136px;
+      }
+  
+      &__text {
+        color: $grey;
+        margin-left: 19px;
+        margin-top: auto;
+        margin-bottom: 20px;
+        font-family: 'AvenirNextCyr-Light';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  
+    &__button {
+      width: 199px;
+      height: 43px;
+      border: 3px solid $dark-green;
+      background: transparent;
+      cursor: pointer;
+      color: $green;
+      text-align: center;
+      font-family: 'AvenirNextCyr-Bold';
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 750;
+      line-height: normal;
+      margin-top: 80px;
+    }
+  } 
+}
+
+@media screen and (max-width: 720px){
+  .mainSwiper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    &__title {
+      color: $dark-green;
+      font-family: 'AvenirNextCyr-Medium';
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 450;
+      line-height: normal;
+      margin-left: 20px;
+      margin-right: auto;
+    }
+  
+    .swiper {
+      width: 320px;
+      overflow: visible !important;
+      margin-top: -15px;
+      margin-bottom: -30px;
+    }
+    .swiper-wrapper{
+      overflow: scroll !important;
+      height: 299px;
+      width: 300px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 20px;
+    }
+    .swiper-slide.active {
+      scale: 1;
+      transition: scale 0.5s ease !important; /* добавление плавности анимации */
+      margin-top: 0px;
+      z-index: 10;
+
+      h4{
+        font-size: 18px;
+      }
+
+      p{
+        text-align: left;
+        margin-left: 0;
+        font-size: 16px;
+        margin-left: 19px;
+      }
+    }
+    .swiper-slide:nth-child(-n + 4) {
+      margin-right: 14px !important;
+    }
+    .swiper-slide:nth-last-child(-n + 3) {
+      margin-right: 14px !important;
+    }
+    .swiper-slide {
+      cursor: default;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 202px !important;
+      height: 229px;
+      flex-flow: 0;
+      box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.2);
+      padding-bottom: 0px;
+      justify-content: space-between;
+      margin-right: 0px !important;
+      background: $white;
+      z-index: 3;
+  
+      .swiper-green {
+        position: absolute;
+        width: 100%;
+        height: 67px;
+        rotate: 180deg;
+        background: linear-gradient(180deg, rgba(16, 140, 61, 0.00) 0%, rgba(57, 163, 93, 0.84) 36.46%, #39A35D 60.42%, #108C3D 100%);
+      }
+  
+      &__title {
+        color: $white;
+        z-index: 2;
+        text-align: center;
+        font-family: 'AvenirNextCyr-Regular';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+        margin-top: 5px;
+        width: 191px;
+      }
+  
+      &__text {
+        color: $grey;
+        margin-left: 19px;
+        margin-top: auto;
+        margin-bottom: 20px;
+        font-family: 'AvenirNextCyr-Light';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  
+    &__button {
+display: none;
+    }
+  } 
+}

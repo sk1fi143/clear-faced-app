@@ -23,3 +23,31 @@
         }
     }
 }
+
+@media screen and (max-width: 1024px){
+    .prodItem{
+        display: flex;
+        flex-direction: column;
+        row-gap: 70px;
+    
+        .prodArtCol{
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 720px){
+    .prodItem{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    
+        .prodArtCol{
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+        }
+    }
+}

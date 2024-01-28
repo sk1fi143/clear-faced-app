@@ -5,13 +5,17 @@ import imgwithfon from '../assets/img/aboutcomp-imgfon.png';
 import fourthinfoimg from '../assets/img/aboutcomp-img4.png';
 import leaves1 from '../assets/img/leaves-ac-1.png';
 import leaves2 from '../assets/img/leaves-ac-2.png';
-import React, { useLayoutEffect } from "react";
+import leaves1320 from '../assets/img/leaves-ac-1320.png';
+import leaves2320 from '../assets/img/leaves-ac-2320.png';
+import leaves3320 from '../assets/img/leaves-ac-3320.png';
+import leaves4320 from '../assets/img/leaves-ac-4320.png';
+import React, { useLayoutEffect } from 'react';
 
 function MainAboutCompany() {
   useLayoutEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   });
-  
+
   let title = 'О КОМПАНИИ';
   let ptext1 =
     'Молодой российский бренд “Ясноликая” появился благодаря желанию врача-косметолога создать универсальный базовый уход для особенной кожи. Меня зовут Юлиана Шиян, и я практикующий врач-косметолог, дерматолог. Уже больше 15 лет я работаю с проблемной кожей и помогаю своим пациентам подбирать индивидуальные решения в уходе за лицом.';
@@ -52,7 +56,7 @@ function MainAboutCompany() {
         </h2>
         <div className="mainAboutCompany__infoblock-4-1">
           <div className="mainAboutCompany__img-with-fonblock">
-            <img className="mainAboutCompany__img-with-fon" src={imgwithfon} alt=''/>
+            <img className="mainAboutCompany__img-with-fon" src={imgwithfon} alt="" />
           </div>
           <div className="mainAboutCompany__fourth-infotextblock">
             <p className="mainAboutCompany__fourth-text">{ptext4}</p>
@@ -63,11 +67,17 @@ function MainAboutCompany() {
         <div className="mainAboutCompany__fifth-infotextblock">
           <p className="mainAboutCompany__fifth-text">{ptext5}</p>
         </div>
-        <img className="mainAboutCompany__fourth-info-img" src={fourthinfoimg} alt=''/>
+        <img className="mainAboutCompany__fourth-info-img" src={fourthinfoimg} alt="" />
       </div>
       <div className="mainAboutCompany__leaves">
-        <img className="mainAboutCompany__leaves1" src={leaves1} alt=''/>
-        <img className="mainAboutCompany__leaves2" src={leaves2} alt=''/>
+        <img className="mainAboutCompany__leaves1" src={leaves1} alt="" />
+        <img className="mainAboutCompany__leaves2" src={leaves2} alt="" />
+      </div>
+      <div className="mainAboutCompany__leaves320">
+        <img className="mainAboutCompany__leaves1320" src={leaves1320} alt="" />
+        <img className="mainAboutCompany__leaves2320" src={leaves2320} alt="" />
+        <img className="mainAboutCompany__leaves3320" src={leaves3320} alt="" />
+        <img className="mainAboutCompany__leaves4320" src={leaves4320} alt="" />
       </div>
     </div>
   );
