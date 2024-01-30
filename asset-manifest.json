@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clear-faced-app/static/css/main.06c047a5.css",
-    "main.js": "/clear-faced-app/static/js/main.da8b5ef9.js",
+    "main.css": "/clear-faced-app/static/css/main.61bc7af7.css",
+    "main.js": "/clear-faced-app/static/js/main.20ddb515.js",
     "static/media/mainPageFirstScreenImage.png": "/clear-faced-app/static/media/mainPageFirstScreenImage.9c9af68d39b0a6e1e53e.png",
     "static/media/MainPageEffectImage.png": "/clear-faced-app/static/media/MainPageEffectImage.d67c9f42eb5b0c87ab4a.png",
     "static/media/aboutcomp-img4.png": "/clear-faced-app/static/media/aboutcomp-img4.225aca205accdde61a1d.png",
@@ -92,7 +92,6 @@
     "static/media/avenirnextcyr-thin.woff2": "/clear-faced-app/static/media/avenirnextcyr-thin.4826a397e15173e6fe8b.woff2",
     "static/media/avenirnextcyr-light.woff2": "/clear-faced-app/static/media/avenirnextcyr-light.14f40012d08ac15fa5bc.woff2",
     "static/media/ylia320.png": "/clear-faced-app/static/media/ylia320.84c44dcd8d21d36814d7.png",
-    "static/media/cosmelike320.png": "/clear-faced-app/static/media/cosmelike320.d75b8d88d050eef551a9.png",
     "static/media/avenirnextcyr-bolditalic.woff2": "/clear-faced-app/static/media/avenirnextcyr-bolditalic.408e5b652ba8fa847887.woff2",
     "static/media/avenirnextcyr-demiitalic.woff2": "/clear-faced-app/static/media/avenirnextcyr-demiitalic.9bc18e91e61fb0c3f361.woff2",
     "static/media/avenirnextcyr-mediumitalic.woff2": "/clear-faced-app/static/media/avenirnextcyr-mediumitalic.e0bfa50dcdd84dc3476e.woff2",
@@ -107,6 +106,7 @@
     "static/media/avenirnextcyr-demi.woff2": "/clear-faced-app/static/media/avenirnextcyr-demi.5d7072de6fcf2d8f6e52.woff2",
     "static/media/leaves-ac-3320.png": "/clear-faced-app/static/media/leaves-ac-3320.dba623c00d2abe868ba0.png",
     "static/media/mainList12.png": "/clear-faced-app/static/media/mainList12.eca15e89ae777d8c271a.png",
+    "static/media/cosmelike320.png": "/clear-faced-app/static/media/cosmelike320.5bac61fa8ca15a5bd7ea.png",
     "static/media/leaves-ac-2320.png": "/clear-faced-app/static/media/leaves-ac-2320.ad96a88c37c9da834ba4.png",
     "static/media/leaves-ac-1320.png": "/clear-faced-app/static/media/leaves-ac-1320.1c6b14f4f02945c46ea1.png",
     "static/media/leaves-ac-4320.png": "/clear-faced-app/static/media/leaves-ac-4320.62fd612f8962c364f9fc.png",
@@ -129,11 +129,11 @@
     "static/media/avenirnextcyr-thinitalic.woff": "/clear-faced-app/static/media/avenirnextcyr-thinitalic.31d6cfe0d16ae931b73c.woff",
     "static/media/avenirnextcyr-ultralight.woff": "/clear-faced-app/static/media/avenirnextcyr-ultralight.31d6cfe0d16ae931b73c.woff",
     "static/media/avenirnextcyr-ultralightit.woff": "/clear-faced-app/static/media/avenirnextcyr-ultralightit.31d6cfe0d16ae931b73c.woff",
-    "main.06c047a5.css.map": "/clear-faced-app/static/css/main.06c047a5.css.map",
-    "main.da8b5ef9.js.map": "/clear-faced-app/static/js/main.da8b5ef9.js.map"
+    "main.61bc7af7.css.map": "/clear-faced-app/static/css/main.61bc7af7.css.map",
+    "main.20ddb515.js.map": "/clear-faced-app/static/js/main.20ddb515.js.map"
   },
   "entrypoints": [
-    "static/css/main.06c047a5.css",
-    "static/js/main.da8b5ef9.js"
+    "static/css/main.61bc7af7.css",
+    "static/js/main.20ddb515.js"
   ]
 }
