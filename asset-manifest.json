@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/clear-faced-app/static/css/main.49587e00.css",
+    "main.css": "/clear-faced-app/static/css/main.06c047a5.css",
     "main.js": "/clear-faced-app/static/js/main.da8b5ef9.js",
     "static/media/mainPageFirstScreenImage.png": "/clear-faced-app/static/media/mainPageFirstScreenImage.9c9af68d39b0a6e1e53e.png",
     "static/media/MainPageEffectImage.png": "/clear-faced-app/static/media/MainPageEffectImage.d67c9f42eb5b0c87ab4a.png",
@@ -129,11 +129,11 @@
     "static/media/avenirnextcyr-thinitalic.woff": "/clear-faced-app/static/media/avenirnextcyr-thinitalic.31d6cfe0d16ae931b73c.woff",
     "static/media/avenirnextcyr-ultralight.woff": "/clear-faced-app/static/media/avenirnextcyr-ultralight.31d6cfe0d16ae931b73c.woff",
     "static/media/avenirnextcyr-ultralightit.woff": "/clear-faced-app/static/media/avenirnextcyr-ultralightit.31d6cfe0d16ae931b73c.woff",
-    "main.49587e00.css.map": "/clear-faced-app/static/css/main.49587e00.css.map",
+    "main.06c047a5.css.map": "/clear-faced-app/static/css/main.06c047a5.css.map",
     "main.da8b5ef9.js.map": "/clear-faced-app/static/js/main.da8b5ef9.js.map"
   },
   "entrypoints": [
-    "static/css/main.49587e00.css",
+    "static/css/main.06c047a5.css",
     "static/js/main.da8b5ef9.js"
   ]
 }
